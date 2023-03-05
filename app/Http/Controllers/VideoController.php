@@ -20,7 +20,6 @@ class VideoController extends Controller
             'id' => $video->id,
         ],201);
     }
-
     public function show($id)
     {
         try {
